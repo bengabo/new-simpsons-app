@@ -1,0 +1,10 @@
+.quote {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  font-style: italic;
+}
+
+.name {
+  font-family: 'Rock Salt', cursive;
+}
