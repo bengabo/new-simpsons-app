@@ -19,8 +19,9 @@ class App extends React.Component {
   newCharacter() {
     // Send the request
     axios
-      .get("https://quests.wilders.dev/simpsons-quotes/quotes")
-      .then(response => response.data)
+      .get("https://thesimpsonsquoteapi.glitch.me/quotes")
+      .then(response =>
+        response.data)
       .then(data => {
         this.setState({
           character: data[0]
